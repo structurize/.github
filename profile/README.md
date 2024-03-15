@@ -30,44 +30,33 @@ With Structurize, your journey in software development becomes a creative and ef
 
 Structurize offers a comprehensive set of modular bricks, each designed to perform specific tasks and enhance various aspects of software development. Below is a description of the available bricks:
 
-1. **image.blur**
-   - *Functionality:* Apply blurring effects to images.
-   - *Use Case:* Enhance privacy by obscuring sensitive information in images.
 
-2. **image.ocr**
-   - *Functionality:* Extract text information from images using Optical Character Recognition (OCR).
-   - *Use Case:* Enable text extraction from images for further processing.
+**Image Manipulation:**
+- **image.blur:** Apply blurring effects to images to enhance privacy by obscuring sensitive information.
+- **image.removebg:** Effortlessly remove backgrounds from images, creating visually appealing images with transparent backgrounds.
+- **image.resize:** Resize images to specific dimensions, optimizing them for various display requirements.
+- **image.create:** Generate new images programmatically with ease.
+- **image.vision:** Utilize advanced computer vision algorithms for complex image recognition and analysis tasks.
+- **image.merge:** Combine multiple images seamlessly to create composite images.
 
-3. **image.removebg**
-   - *Functionality:* Remove the background from images.
-   - *Use Case:* Create visually appealing images with transparent backgrounds.
+**Text Processing:**
+- **text.complete:** Automate text completion tasks for enhanced productivity.
+- **text.tospeech:** Implement text-to-speech functionality for accessibility or user interaction.
+- **text.translate:** Translate text between languages effortlessly.
 
-4. **image.resize**
-   - *Functionality:* Resize images to specific dimensions.
-   - *Use Case:* Optimize image sizes for various display requirements.
+**Speech Processing:**
+- **speech.totext:** Convert spoken words into text, enabling transcription services for audio content.
 
-5. **speech.totext**
-   - *Functionality:* Convert spoken words into text.
-   - *Use Case:* Enable transcription services for audio content.
+**PDF Handling:**
+- **pdf.text:** Extract text content from PDF documents.
+- **pdf.extract:** Extract specific data or information from PDF files.
 
-6. **text.tospeech**
-   - *Functionality:* Convert text into spoken words.
-   - *Use Case:* Implement text-to-speech functionality for accessibility or user interaction.
+**Data Management:**
+- **storage.get:** Retrieve stored data for further processing.
+- **storage.put:** Store processed or generated data for future use.
+- **storage.download:** Download stored data for local processing or analysis.
 
-7. **visionai**
-   - *Functionality:* Harness the power of advanced computer vision algorithms.
-   - *Use Case:* Perform complex image recognition and analysis tasks.
-
-8. **storage.get**
-   - *Functionality:* Retrieve data from storage.
-   - *Use Case:* Access previously stored information for further processing.
-
-9. **storage.put**
-   - *Functionality:* Store data in storage.
-   - *Use Case:* Save processed or generated data for future use.
-
-10. **storage.download**
-   - *Functionality:* Download data from storage to the local environment.
-   - *Use Case:* Retrieve stored data for local processing or analysis.
+**Build Your Solution:**
+Mix and match these bricks to create tailored solutions for your projects. Whether you're working on image manipulation, text processing, speech recognition, PDF handling, or data storage, Structurize provides the tools you need for a seamless and modular development experience.
 
 These bricks are the fundamental components that empower developers to build a diverse range of applications efficiently. Whether you are working on image manipulation, speech processing, text conversion, or data storage, Structurize provides the tools you need for a seamless and modular development experience. Mix and match these bricks to create a powerful and tailored solution for your software projects.
